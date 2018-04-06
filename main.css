@@ -35,14 +35,18 @@
 
 }
 #inputID {
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 5px;
-    box-shadow: 0px 0px;
     float:left;
     margin-left: 55px;
+    height: 30px;
     width: 400px;
+    border: 0;
     margin-right: 20px;
-
+    box-shadow: 0px 0px 15px grey;
+    padding: 15px;
+    box-sizing: border-box;
+    opacity: 0.5;
 }
 
 .classH1 {
@@ -56,10 +60,11 @@
     font-size:18px;
     background-color: darkgrey;
     border: 1px solid grey;
+    border-radius: 5px;
     padding: 4px;
     margin-right:20px;
     float:right;
-    box-shadow: 0px 0px 15px grey;
+    box-shadow: 0px 0px 10px grey;
 }
 
 #buttonID:hover {
